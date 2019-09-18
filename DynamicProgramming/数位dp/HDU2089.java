@@ -5,8 +5,6 @@ public class Main
     public static int[][] dp = new int[20][2];
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		
-		
 		while(in.hasNext()) {
 		    int m = in.nextInt();
 		    int n = in.nextInt();
@@ -41,7 +39,6 @@ public class Main
 	    }
 	    if(!limit)
 	        dp[pos][state] = temp;
-	    return temp; 
-	    
+	    return temp; 	    
 	}
 }

@@ -1,6 +1,31 @@
 {
     "configurations": [
         {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HDU4734",
+            "request": "launch",
+            "mainClass": "HDU4734",
+            "projectName": "LearningAlgorithm_f0c00cb5"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HDU2089",
+            "request": "launch",
+            "mainClass": "HDU2089",
+            "projectName": "LearningAlgorithm_f0c00cb5"
+        },
+        {
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",

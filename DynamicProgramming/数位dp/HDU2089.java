@@ -1,6 +1,5 @@
 import java.util.*;
-public class Main
-{
+public class Main {
     public static int[] a = new int[20];
     public static int[][] dp = new int[20][2];
 	public static void main(String[] args) {

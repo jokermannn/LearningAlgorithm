@@ -1,4 +1,4 @@
-# 数位dp总结
+# 数位dp总结[^id1]
 
 ## 基础篇
 
@@ -79,3 +79,5 @@ int main()
     }
 }
 ```
+
+[^id1]: wust_wenhao.数位dp总结 之 从入门到模板. https://blog.csdn.net/wust_zzwh/article/details/52100392
